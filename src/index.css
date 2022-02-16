@@ -1,0 +1,81 @@
+/* ----------------------------------------------- */
+/* BASIC SETUP */
+/* ----------------------------------------------- */
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: inherit;
+}
+
+html,
+body {
+  text-rendering: optimizeLegibility;
+  overflow-x: hidden;
+}
+
+body {
+  box-sizing: border-box;
+  color: hsla(0, 0%, 100%, 0.75);
+  background-color: hsl(0, 0%, 95%);
+  font-family: "Lexend Deca", sans-serif;
+}
+
+/* Headers */
+h2 {
+  text-transform: uppercase;
+  font-size: 2rem;
+  font-family: "Big Shoulders Display", cursive;
+  margin: 1.3rem 0;
+}
+
+/* Buttons */
+button {
+  cursor: pointer;
+  position: absolute;
+  bottom: 2rem;
+  border-radius: 22px;
+  padding: 0.8rem 2.1em;
+  background-color: hsl(0, 0%, 95%);
+  border: solid 2px hsl(0, 0%, 95%);
+}
+
+button:hover,
+button:active {
+  background-color: transparent;
+  color: hsl(0, 0%, 95%) !important;
+}
+
+/* Paragraphs */
+p {
+  line-height: 26px;
+}
+
+/* Columns */
+.services-container {
+  display: flex;
+  position: absolute;
+  width: 60rem;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.service {
+  text-align: left;
+  padding: 2rem 3rem 2rem 3rem;
+  position: relative;
+}
+
+.service:first-of-type {
+  border-radius: 5px 0 0 5px;
+}
+
+.service:last-of-type {
+  border-radius: 0 5px 5px 0;
+}
+
+.service p {
+  margin-bottom: 7.5rem;
+}
