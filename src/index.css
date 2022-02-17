@@ -20,6 +20,7 @@ body {
   color: hsla(0, 0%, 100%, 0.75);
   background-color: hsl(0, 0%, 95%);
   font-family: "Lexend Deca", sans-serif;
+  margin: 0 4%;
 }
 
 /* Headers */
@@ -55,11 +56,10 @@ p {
 /* Columns */
 .services-container {
   display: flex;
-  position: absolute;
-  width: 60rem;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  margin: auto;
+  align-items: center;
+  max-width: 60rem;
+  height: 100vh;
 }
 
 .service {

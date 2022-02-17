@@ -1,16 +1,9 @@
-@media only screen and (max-width: 970px) {
-  .services-container {
-    width: 51rem;
-  }
-}
-
-@media only screen and (max-width: 820px) {
+@media only screen and (max-width: 782px) {
   .services-container {
     flex-direction: column;
-    width: 92%;
-    top: 0;
-    left: 4%;
-    transform: none;
+    min-width: 250px;
+    max-width: 350px;
+    height: auto;
   }
 
   .service p {
@@ -19,11 +12,11 @@
 
   .service:first-of-type {
     border-radius: 5px 5px 0 0;
-    margin-top: 10%;
+    margin-top: 20%;
   }
 
   .service:last-of-type {
     border-radius: 0 0 5px 5px;
-    margin-bottom: 10%;
+    margin-bottom: 20%;
   }
 }
