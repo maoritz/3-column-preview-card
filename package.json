@@ -1,6 +1,6 @@
 {
-  "name": "3-column-preview-card",
-  "homepage": "https://myusername.github.io/3-column-preview-card",
+  "name": "three-column-preview-card",
+  "homepage": "https://myusername.github.io/three-column-preview-card",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
